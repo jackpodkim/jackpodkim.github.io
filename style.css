@@ -1,0 +1,82 @@
+/* ----- Color tokens (GitHub dark) ----- */
+:root{
+  --bg:#0d1117;
+  --bg2:#161b22;
+  --fg:#c9d1d9;
+  --muted:#8b949e;
+  --accent:#58a6ff;
+  --card:#21262d;
+  --border:#30363d;
+  --radius:6px;
+  font-size:16px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:var(--bg);
+  color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height:1.6;
+}
+
+/* ------- Banner -------- */
+.banner{
+  position:relative;
+  overflow:hidden;
+  height:240px;
+}
+.banner img{
+  width:100%;height:100%;object-fit:cover;filter:brightness(0.4);
+}
+.banner .overlay{position:absolute;inset:0;background:linear-gradient(#0d111700 30%,#0d1117 90%);}
+.nameplate{
+  position:absolute;bottom:20px;left:50%;transform:translateX(-50%);text-align:center;
+}
+.avatar{
+  width:96px;height:96px;border-radius:50%;border:2px solid var(--accent);object-fit:cover;margin-bottom:0.5rem;
+}
+.nameplate h1{font-size:1.9rem;font-weight:600;margin-bottom:0.3rem}
+.tagline{color:var(--muted);margin-bottom:0.6rem}
+.contact{font-size:0.9rem}
+.contact a{color:var(--accent);text-decoration:none}
+.contact a:hover{text-decoration:underline}
+
+/* ---- Layout ---- */
+main{width:min(920px,90%);margin:3rem auto}
+section{margin-bottom:2.5rem}
+h2{
+  font-size:1.4rem;
+  color:var(--accent);
+  border-bottom:1px solid var(--border);
+  padding-bottom:0.3rem;
+  margin-bottom:1rem;
+}
+h3{
+  font-size:1.1rem;
+  margin:0.4rem 0;
+  color:var(--fg);
+}
+.period{font-size:0.85rem;color:var(--muted)}
+.stack{font-size:0.85rem;color:var(--accent);margin-bottom:0.5rem}
+ul{list-style:square;padding-left:1.2rem}
+article{background:var(--card);padding:1rem 1.2rem;border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1.2rem}
+
+/* Skills Grid */
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.skills-grid div{background:var(--card);padding:0.8rem;border:1px solid var(--border);border-radius:var(--radius);font-size:0.9rem}
+
+/* Education */
+.edu h3{display:flex;justify-content:space-between;flex-wrap:wrap;font-size:1rem}
+.edu .period{margin-left:auto}
+
+/* Links */
+a{color:var(--accent)}
+a:hover{opacity:0.85}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:2rem 0 3rem;
+  font-size:0.8rem;
+  color:var(--muted);
+}
