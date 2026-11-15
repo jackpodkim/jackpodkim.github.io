@@ -1,182 +1,356 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Jack Jiyong Kim · Resume</title>
+  <title>Jack Jiyong Kim | Lead Data Scientist &amp; AI Engineer</title>
+  <meta name="description" content="Jack Jiyong Kim (김지용), Lead Data Scientist &amp; AI Engineer in Seoul. Real-time bidding ML, ranking, experimentation, and LLM and agentic search systems. Resume in English and Korean.">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Jack Jiyong Kim | Lead Data Scientist &amp; AI Engineer">
+  <meta property="og:description" content="Real-time bidding ML, ranking, experimentation, and LLM and agentic search systems. Resume in English and Korean.">
+  <meta property="og:url" content="https://jackpodkim.github.io/">
+  <link rel="canonical" href="https://jackpodkim.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a5aa8'/%3E%3Ctext x='32' y='43' font-family='Arial,Helvetica,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23fff'%3EJK%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="assets/avatar.jpg">
+  <script src="js/main.js"></script>
+  <noscript><style>html [data-l]{display:revert !important}.tools{display:none}.resume + .resume{margin-top:28px}</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jack Jiyong Kim",
+    "alternateName": "김지용",
+    "jobTitle": "Lead Data Scientist",
+    "url": "https://jackpodkim.github.io/",
+    "sameAs": ["https://www.linkedin.com/in/jack-jiyong-k-72517b49"],
+    "address": {"@type": "PostalAddress", "addressLocality": "Seoul", "addressCountry": "KR"},
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Johns Hopkins University"},
+      {"@type": "CollegeOrUniversity", "name": "Baruch College, City University of New York"}
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <!-- Header / Banner -->
-  <header class="banner">
-    <img src="assets/banner.jpg" alt="banner">
-    <div class="overlay"></div>
-    <div class="nameplate">
-      <img class="avatar" src="assets/avatar.jpg" alt="avatar">
-      <h1>Jack&nbsp;Jiyong&nbsp;Kim</h1>
-      <p class="tagline">Data Science · Machine Learning · MLOps</p>
-      <div class="contact">
-        <span>Seong-dong gu, Seoul, Korea</span> ·
-        <a href="tel:+821038871342">+82-10-3887-1342</a> ·
-        <a href="mailto:jackpodkim@gmail.com">jackpodkim@gmail.com</a> ·
-        <a href="https://jackpodkim.github.io" target="_blank">Portfolio ↗</a>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top">
+        <span data-l="en">Jack Jiyong Kim</span>
+        <span data-l="ko" lang="ko">김지용</span>
+      </a>
+      <div class="tools">
+        <div class="seg" role="group" aria-label="Language">
+          <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-set-lang="ko" aria-pressed="false" lang="ko">한국어</button>
+        </div>
+        <button type="button" class="btn" id="print">
+          <span data-l="en">Save as PDF</span>
+          <span data-l="ko" lang="ko">PDF 저장</span>
+        </button>
       </div>
     </div>
-  </header>
+  </div>
 
-  <!-- Main Wrapper -->
-  <main>
+  <main id="top">
 
-    <!-- Core Competencies -->
-    <section>
-      <h2>Core Competencies</h2>
-      <ul>
-        <li>9+ years hands-on Data Science &amp; Machine Learning across finance, media and ed-tech</li>
-        <li>End-to-end ownership — product design → data engineering → model dev → MLOps/LLM serving&nbsp;(200 K+ users)</li>
-        <li>Proven leadership of teams & projects (up to 15 members)</li>
-      </ul>
-    </section>
+    <!-- ============================== ENGLISH ============================== -->
+    <article class="resume" data-l="en" lang="en">
 
-    <!-- Technical Skills -->
-    <section>
-      <h2>Technical Skills</h2>
-      <div class="skills-grid">
-        <div><strong>Languages</strong><br>Python, R, C++, SQL &amp; NoSQL</div>
-        <div><strong>Cloud</strong><br>AWS, GCP, Naver&nbsp;Cloud</div>
-        <div><strong>ML / DL</strong><br>PyTorch, TensorFlow, Scikit-learn, HuggingFace, XGBoost, Prophet, vLLM</div>
-        <div><strong>MLOps</strong><br>Kubernetes, Kubeflow, Airflow, Docker</div>
-        <div><strong>Data / ETL</strong><br>Spark, Hadoop&nbsp;(Impala/Oozie), Selenium, BeautifulSoup</div>
+      <header class="head">
+        <h1>Jack Jiyong Kim</h1>
+        <p class="role">Lead Data Scientist &amp; AI Engineer</p>
+        <p class="tagline">Statistical Modelling &amp; Experimentation · Real-Time ML &amp; Ranking · LLM Systems &amp; Agentic Search</p>
+        <ul class="contact">
+          <li>Seoul, South Korea</li>
+          <li><a href="mailto:jackpodkim@gmail.com">jackpodkim@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/jack-jiyong-k-72517b49" target="_blank" rel="noopener">linkedin.com/in/jack-jiyong-k-72517b49</a></li>
+        </ul>
+      </header>
+
+      <section>
+        <h2>Summary</h2>
+        <p>Hands-on Lead Data Scientist and AI Engineer with 10+ years in quantitative analysis and applied ML across advertising, finance, education, and media (Johns Hopkins MS in Data Science). Leads AI teams and builds real-time prediction, ranking, and agentic search systems grounded in Bayesian modelling, online learning, and A/B testing. Owns the modelling, ranking, and guardrail layer of low-latency LLM/VLM services. Currently overseeing ML for a real-time bidding (RTB) platform handling 6B+ daily bid requests and an agentic commerce search engine built with Perplexity.</p>
+      </section>
+
+      <section>
+        <h2>Highlights</h2>
+        <ul class="highlights">
+          <li>Mean winning bid price down <b>21%</b>, with impressions up <b>12%</b> and ROAS up <b>8%</b> (MAB maximum-bid optimiser)</li>
+          <li>CTR model with NE down <b>9.1%</b> and PR-AUC up <b>8.4%</b>, serving <b>6B+</b> daily bid requests</li>
+          <li>AI commerce search at <b>0.92 NDCG@5</b>, with reranking latency cut from 2,000&nbsp;ms to <b>103&nbsp;ms</b></li>
+          <li>Primary-school maths tutor Pass@1 raised from ~0.70 to <b>&gt;0.90</b> (Gemma 3 4B fine-tuning)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Core Expertise</h2>
+        <dl class="kv">
+          <dt>Statistical Modelling &amp; Experimentation</dt>
+          <dd>Bayesian inference (Pyro, PyMC), online A/B &amp; permutation testing, bid optimisation</dd>
+          <dt>Applied ML &amp; Ranking</dt>
+          <dd>CTR/CVR prediction (two-tower DL, PyTorch), learning-to-rank (LightGBM), Thompson sampling MAB, real-time bidding</dd>
+          <dt>LLM &amp; Agentic Systems</dt>
+          <dd>VLM/LLM fine-tuning (LoRA SFT, PPO RLHF), agentic RAG (LangChain/LangGraph), LLM guardrails (LLM-as-a-Judge, PII redaction)</dd>
+          <dt>Inference &amp; Real-Time Serving</dt>
+          <dd>High-concurrency LLM serving (vLLM, ONNX/Triton), real-time RTB &amp; vector retrieval (Spark/Aerospike, Qdrant)</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+          <div class="row"><h3>Artist Company</h3><span class="loc">Seoul, South Korea</span></div>
+          <div class="row"><span class="title">Lead Data Scientist, DSP Division</span><span class="dates">Aug 2025 – Present</span></div>
+          <p class="ctx">KOSDAQ-listed entertainment and ad-tech company operating the WiderPlanet demand-side platform (DSP) and RTB stack. Directs a 7-person AI team across the DSP ML roadmap, online experimentation, and a new AI commerce search product.</p>
+          <h4>Real-time bidding &amp; ad ranking</h4>
+          <ul>
+            <li>Developed and deployed a CTR model for ad selection and bid pricing, reducing mean normalised entropy (NE) by 9.1% and lifting PR-AUC by 8.4% in offline holdouts; now serving 6B+ daily bid requests on a Spark/Aerospike RTB platform.</li>
+            <li>Built a two-tower deep-learning conversion model for advertiser-defined composite targets (e.g., repeat main-page visits before purchase, app redirects/installs, cart additions), resolving cold-start and extreme sparsity across newly onboarded events (0.743 mean ROC-AUC, 0.240 PR-AUC) and exposing probability bins as targetable segments and bid multipliers.</li>
+            <li>Reduced mean winning bid price by 21%, with impressions up 12% and ROAS up 8%, through algorithm upgrades to the MAB maximum-bid optimiser; validated in device-level (OAID) A/B tests with pre-period A/A and permutation checks.</li>
+            <li>Optimised exploration/exploitation in real-time ad-type selection via Thompson sampling MAB strategies, delivering 14.4% higher CTR and 17.2% higher ROAS in online A/B tests.</li>
+            <li>Improved cookieless and cross-device targeting precision by applying Bayesian prior-probability correction to an IP/geolocation user-matching model, achieving a 15% relative CTR lift in production A/B tests.</li>
+          </ul>
+          <h4>AI commerce search (LLM)</h4>
+          <ul>
+            <li>Built a multimodal commerce search service with Perplexity's team for natural-language product discovery; integrated the Sonar API, NL-to-Qdrant/Elasticsearch retrieval, and VLM indexing to reach 0.92 NDCG@5 on contextual queries, with agentic recommendation explanations gated by an LLM-as-a-Judge guardrail (in retail beta since Oct 2026; <a href="https://pulse.mk.co.kr/news/english/11355511" target="_blank" rel="noopener">Partnership announcement: Maeil Business News / Pulse</a>).</li>
+            <li>Cut mean reranking latency from 2,000 ms to 103 ms by replacing the initial Gemini API reranker with a custom LightGBM LambdaRank model and Memcached result caching.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>Chunjae Education</h3><span class="loc">Seoul, South Korea</span></div>
+          <div class="row"><span class="title">Lead ML Researcher, AI Center</span><span class="dates">Nov 2024 – Jul 2025</span></div>
+          <p class="ctx">Leading Korean education and textbook publisher. Recruited to lead the 11-person AI Digital Textbook team through the national public-school platform launch (delivered Mar 2025), directing architecture and A/B testing for personalised-learning and LLM services.</p>
+          <h4>Personalised learning models</h4>
+          <ul>
+            <li>Built DKT/DFM knowledge-tracing models (0.87 ROC-AUC, 0.82 F1) to predict student item-level errors and dynamically curate difficulty-matched end-of-chapter quizzes and practice problems.</li>
+            <li>Developed a 3-parameter (3PL) item response theory (IRT) model using EM and Pyro HMC inference to jointly estimate learner ability and item difficulty, discrimination, and guessing parameters.</li>
+          </ul>
+          <h4>LLM tutor &amp; serving</h4>
+          <ul>
+            <li>Raised maths problem-solving Pass@1 accuracy from ~0.70 to &gt;0.90 on a LangChain primary-school tutor chatbot by fine-tuning Gemma 3 4B (LoRA SFT, PPO RLHF), and implemented a child-safety lexicon filter and NER-based PII redaction.</li>
+            <li>Defined serving architecture across two Naver Cloud clusters (70 vLLM nodes, 1x A100 GPU each) for 200,000 concurrent student sessions, reviewing Ops implementation and load-testing above target.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>WAI Inc.</h3><span class="loc">Seoul, South Korea</span></div>
+          <div class="row"><span class="title">Project Lead / Senior Data Scientist</span><span class="dates">Sep 2021 – Aug 2024</span></div>
+          <p class="ctx">AI fintech startup serving tier-1 Korean banks, public agencies, and media groups. Led end-to-end ML pipelines and experimental evaluation from problem formulation and model development to production deployment and executive reporting.</p>
+          <ul>
+            <li><b>NH Financial Group (5-person team):</b> Optimised cross-subsidiary campaign targeting via XGBoost ROI/conversion models, Prophet inflow forecasts, and VAE customer segmentation in production, helping cut marketing spend by 18%.</li>
+            <li><b>Korea Deposit Insurance Corporation (6-person team):</b> Mitigated deposit-insurance disclosure compliance risk by deploying a TF-IDF/SVM and YOLOv4 multimodal review pipeline, cutting manual inspection time by 80% (~4,000 hours/year).</li>
+            <li><b>Media &amp; IP analytics (17-person project):</b> Supported content investment and licensing decisions for CJ ENM and JTBC (Studio LuluLala) by building Korean RoBERTa viewer-sentiment pipelines (0.92 and 0.96 ROC-AUC) and Pyro HMC models for IP/OTT revenue forecasting.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>Career Break &amp; Military Service</h3><span class="dates">Apr 2017 – Jan 2021</span></div>
+          <p class="note">Mandatory military service (Republic of Korea), Jan 2019 – Jan 2021; family business and caregiving, 2017 – Sep 2018. Conducted independent research on Korean equities (jump-diffusion return modelling and strategy backtesting).</p>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>Vista Capital</h3><span class="loc">New York, NY, USA</span></div>
+          <div class="row"><span class="title">Data Analyst, Asset Management</span><span class="dates">Jun 2014 – Mar 2017</span></div>
+          <p class="ctx">Boutique asset management and corporate finance firm specialising in credit and leveraged-buyout (LBO) loan underwriting.</p>
+          <ul>
+            <li>Quantified portfolio downside risk (VaR) by modelling equity and derivatives price paths, volatility, and loss distributions via MCMC simulation.</li>
+            <li>Improved corporate credit-risk models by engineering and validating new risk features from unstructured regulatory filings, market data, and internal accounting records.</li>
+            <li>Eliminated calculation delays in daily risk reporting by automating core portfolio data pipelines.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>T3 Trading Group</h3><span class="loc">New York, NY, USA</span></div>
+          <div class="row"><span class="title">Data Analyst, Equity Trading</span><span class="dates">Feb 2012 – May 2014</span></div>
+          <p class="ctx">Proprietary equity trading firm and registered broker-dealer.</p>
+          <ul>
+            <li>Generated momentum and risk signals and VaR-based position-sizing recommendations for the trading desk, producing daily and weekly reports.</li>
+            <li>Built and analysed trading-tape and Level 3 order-flow/depth datasets from real-time US exchange ticks, supporting NYSE/Nasdaq liquidity provision and order execution via market-microstructure analysis.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technical Skills</h2>
+        <dl class="kv">
+          <dt>Languages &amp; Data</dt>
+          <dd>Python, SQL, pandas; Spark, Trino, Hive, Elasticsearch, BigQuery; Aerospike, Memcached, vector databases (Qdrant, Pinecone, pgvector)</dd>
+          <dt>ML &amp; LLM</dt>
+          <dd>PyTorch, TensorFlow, LightGBM, Hugging Face; probabilistic programming (Pyro, PyMC); LLM serving and inference (vLLM, ONNX, Triton); agent, guardrail, and evaluation frameworks (LangChain, LangGraph, LangSmith)</dd>
+          <dt>MLOps, Infrastructure &amp; Cloud</dt>
+          <dd>Docker, Kubernetes, CI/CD, workflow orchestration (Airflow, Kubeflow), FastAPI services; AWS, GCP, Naver Cloud</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <ul class="edu">
+          <li><b>Johns Hopkins University, Whiting School of Engineering</b><span>MS, Data Science | 2022 – 2024</span></li>
+          <li><b>Baruch College, City University of New York</b><span>BBA, Finance | 2009 – 2013</span></li>
+        </ul>
+      </section>
+
+      <div class="cols">
+        <section>
+          <h2>Certifications</h2>
+          <p>KOFIA Certified Investment Manager, Feb 2021</p>
+        </section>
+        <section>
+          <h2>Languages</h2>
+          <p>Korean (native) | English (fluent; US resident 2000 – 2018)</p>
+        </section>
       </div>
-    </section>
+    </article>
 
-    <!-- Education -->
-    <section>
-      <h2>Education</h2>
-      <div class="edu">
-        <h3>Johns Hopkins University &nbsp;—&nbsp; M.E. Data Science</h3>
-        <span class="period">Jan 2022 – Dec 2024</span>
-        <p>Relevant coursework: Computational Statistics, SDE, Linear Algebra / Information Retrieval, Neural Networks</p>
+    <!-- ============================== 한국어 ============================== -->
+    <article class="resume" data-l="ko" lang="ko">
 
-        <h3>City University of New York, Baruch College &nbsp;—&nbsp; B.B.A. Finance</h3>
-        <span class="period">Sep 2009 – Dec 2013</span>
-        <p>Relevant coursework: Investment Analysis, Derivatives, Portfolio Optimization</p>
+      <header class="head">
+        <h1>김지용 <small lang="en">Jack Jiyong Kim</small></h1>
+        <p class="role">Lead Data Scientist</p>
+        <p class="tagline">실시간 입찰(RTB)·추천·검색 ML | 실험 설계·LLM 활용</p>
+        <ul class="contact">
+          <li>대한민국 서울</li>
+          <li><a href="mailto:jackpodkim@gmail.com">jackpodkim@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/jack-jiyong-k-72517b49" target="_blank" rel="noopener">linkedin.com/in/jack-jiyong-k-72517b49</a></li>
+        </ul>
+      </header>
+
+      <section>
+        <h2>소개</h2>
+        <p>광고(애드테크)·금융·교육·미디어 도메인에서 10년 이상 예측 모델링과 머신러닝 프로젝트를 이끌어 온 리드 데이터 사이언티스트(Johns Hopkins 데이터 사이언스 석사)입니다. 베이지안 추론, 온라인 학습(MAB), A/B 실험 설계를 바탕으로 실시간 예측·랭킹·검색 모델을 직접 개발하여 실서비스에 적용해 왔으며, 실무형 리드(Playing Coach)로서 7명 규모의 AI 팀을 이끌고 있습니다. 현재 일 60억 건 이상의 실시간 입찰(RTB) 요청을 처리하는 DSP 핵심 예측 모델(CTR·CVR·입찰가 최적화) 및 Perplexity 팀과 공동 개발한 멀티모달 AI 커머스 검색의 랭킹·추천 모델링을 총괄하고 있습니다.</p>
+      </section>
+
+      <section>
+        <h2>주요 성과</h2>
+        <ul class="highlights">
+          <li>평균 낙찰가 <b>21%</b> 절감, 노출 수 <b>12%</b>·ROAS <b>8%</b> 동반 상승 (MAB 입찰가 최적화)</li>
+          <li>CTR 예측 모델 NE <b>9.1%</b> 감소·PR-AUC <b>8.4%</b> 개선, 일 <b>60억 건</b> 이상 실시간 입찰에 상용 적용</li>
+          <li>AI 커머스 검색 <b>NDCG@5 0.92</b> 달성, 리랭킹 응답 지연시간 약 <b>95%</b> 단축</li>
+          <li>초등 수학 AI 튜터 정답률(Pass@1) 약 70% → <b>90% 이상</b>으로 개선 (Gemma 3 4B 파인튜닝)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>핵심 역량</h2>
+        <dl class="kv">
+          <dt>통계 모델링·실험 설계</dt>
+          <dd>베이지안 추론(Pyro, PyMC), 온라인 A/B 실험 설계(사전 A/A 검증·순열 검정), 입찰가 최적화</dd>
+          <dt>광고·추천·검색 ML</dt>
+          <dd>CTR/CVR 예측(Two-tower DL), 랭킹·추천 모델링(LightGBM LambdaRank), MAB 온라인 학습(Thompson Sampling)</dd>
+          <dt>생성형 AI·LLM 활용</dt>
+          <dd>LLM·VLM 파인튜닝(LoRA SFT, PPO RLHF), 에이전틱 RAG(LangChain, LangGraph), LLM 가드레일(LLM-as-a-Judge, PII 마스킹)</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>경력</h2>
+
+        <div class="job">
+          <div class="row"><h3>아티스트컴퍼니 <span lang="en">(Artist Company)</span></h3><span class="loc">대한민국 서울</span></div>
+          <div class="row"><span class="title">Lead Data Scientist, DSP 사업부</span><span class="dates">2025.08 – 현재</span></div>
+          <p class="ctx">타겟팅 광고 플랫폼(WiderPlanet DSP·RTB)을 운영하는 코스닥 상장 엔터테인먼트·애드테크 기업. 7명 규모의 AI 팀을 이끌며 DSP 입찰·추천, 온라인 A/B 실험 설계, 신규 AI 커머스 검색 서비스 모델링을 총괄합니다.</p>
+          <ul>
+            <li>광고 후보 선정 및 입찰가 산정을 위한 신규 CTR 예측 모델을 설계·개발하여 오프라인 홀드아웃 평가 기준 평균 정규화 엔트로피(NE)를 9.1% 감소시키고 PR-AUC를 8.4% 개선했으며, 상용 RTB 입찰 엔진에 직접 배포해 일 60억 건 이상의 입찰 요청에 실시간으로 적용했습니다.</li>
+            <li>MAB 기반 최대 입찰가 최적화 시스템(MBO)의 탐색·입찰 알고리즘을 고도화하고 기기 식별자(OAID) 단위의 온라인 A/B 테스트(사전 A/A 검증 및 순열 검정 적용)를 주도하여 평균 낙찰가 21% 절감 및 노출 수 12%·ROAS 8% 동반 상승을 달성했습니다.</li>
+            <li>Perplexity 팀과 공동 개발한 자연어 기반 멀티모달 커머스 검색 서비스의 랭킹·추천 모델을 설계하고, Sonar API 연동 자연어 쿼리 변환, 초기 검색(Qdrant·Elasticsearch) 및 VLM 상품 인덱싱 파이프라인과 통합하여 맥락 기반 질의 기준 NDCG@5 0.92를 달성했습니다. 에이전틱 추천 사유 생성 단계에 LLM-as-a-Judge 출력 검수 가드레일을 적용했습니다(2026.10 첫 리테일 고객사 베타 출시, <a href="https://pulse.mk.co.kr/news/english/11355511" target="_blank" rel="noopener">협력 발표 보도: 매일경제</a>).</li>
+            <li>기존 Gemini API 기반 리랭커를 자체 학습한 LightGBM LambdaRank 모델 및 Memcached 결과 캐싱 구조로 대체하여, 평균 리랭킹 응답 지연시간을 2.0초에서 0.103초로 약 95% 단축했습니다.</li>
+            <li>실시간 광고 유형 선택 로직에 Thompson Sampling 기반 MAB 탐색·활용 전략을 도입하여 온라인 A/B 테스트 기준 CTR을 14.4%, ROAS를 17.2% 개선했습니다.</li>
+            <li>광고주 정의 복합 전환(메인 페이지 다회 방문 후 구매, 특정 앱 경유·설치, 장바구니 담기 등)을 예측하는 투타워(Two-tower) 딥러닝 기반 CVR 모델을 구축하여 신규 이벤트의 콜드스타트 및 극심한 라벨 희소성 문제를 해결(평균 ROC-AUC 0.743, PR-AUC 0.240)하고, 예측 확률 구간을 타겟팅 세그먼트 및 입찰 가중치(Bid Multiplier)로 활용했습니다.</li>
+            <li>쿠키리스(Cookieless) 환경의 교차 기기 타겟팅 정밀도 향상을 위해 IP·위치 정보 기반 사용자 매칭 모델에 베이지안 사전확률 보정 기법을 적용하여 상용 A/B 테스트에서 CTR을 상대 기준 15% 개선했습니다.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>천재교육</h3><span class="loc">대한민국 서울</span></div>
+          <div class="row"><span class="title">Lead ML Researcher, AI 센터</span><span class="dates">2024.11 – 2025.07</span></div>
+          <p class="ctx">국내 대표 교육·교과서 출판사. 공교육 AI 디지털교과서 전국 상용화(2025.03 런칭)를 위해 영입되어 11명 규모의 팀을 이끌며 개인화 학습 추천·LLM 튜터 아키텍처 설계, 모델 개발 및 실험 검증을 총괄했습니다.</p>
+          <ul>
+            <li>학습자 숙련도를 추적하는 DKT(Pyro 기반 결합 분포 모델링) 및 문항 정답 확률을 예측하는 DFM 모델을 과목·문제 유형별로 개발(정오답 예측 ROC-AUC 0.87, F1 0.82)하고, 실시간 추론을 통해 학생별 취약 문항을 식별하여 개인별 적정 난이도의 단원 마무리 퀴즈 및 연습 문제 큐레이션에 적용했습니다.</li>
+            <li>EM 알고리즘과 Pyro(HMC) 베이지안 추론을 결합한 3모수 문항반응이론(3PL IRT) 모델을 구축하여 학습자 잠재 능력치와 문항별 난이도·변별도·추측도를 동시에 추정했습니다.</li>
+            <li>Gemma 3 4B 모델을 파인튜닝(LoRA SFT, PPO RLHF)하여 LangChain 기반 초등 수학 AI 튜터 챗봇의 문제 풀이 정답률(Pass@1)을 약 70%에서 90% 이상으로 향상시키고, 아동 보호 금칙어 필터 및 출력단 개체명 인식(NER) 기반 개인정보(PII) 마스킹 가드레일을 구축했습니다.</li>
+            <li>전국 초등학생 최대 20만 동시 세션 처리를 위한 서빙 요구사항 정의 및 네이버클라우드 기반 vLLM 추론 클러스터 2개(노드 70대, 노드당 A100 GPU 1장) 구성을 설계하고, 인프라(Ops) 구현에 대한 기술 검토와 목표치 초과 부하 테스트를 주도하여 서비스 안정성을 검증했습니다.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3 lang="en">WAI Inc.</h3><span class="loc">대한민국 서울</span></div>
+          <div class="row"><span class="title">Project Lead / Senior Data Scientist</span><span class="dates">2021.09 – 2024.08</span></div>
+          <p class="ctx">제1금융권·공공기관·미디어 대기업을 고객사로 둔 AI 핀테크 스타트업에서 과제 정의, 모델링, 실험 검증, 상용 배포, 경영진 보고에 이르는 엔드투엔드 ML 프로젝트를 리드했습니다.</p>
+          <ul>
+            <li><b>농협금융지주 (5명 팀):</b> 계열사 교차 캠페인 타겟팅 효율 최적화를 위해 XGBoost 기반 ROI·전환율 예측, Prophet 유입량 예측, VAE 기반 고객 세분화 모델을 상용 배포하여 마케팅 비용 18% 절감에 기여했습니다.</li>
+            <li><b>예금보험공사 (6명 팀):</b> 금융사 공시·웹페이지 내 예금자보호 표시 위반 리스크 해소를 위해 TF-IDF/SVM 및 YOLOv4 기반 멀티모달 자동 검수 파이프라인을 구축하여 수작업 검수 시간을 80%(연 약 4,000시간) 단축했습니다.</li>
+            <li><b>미디어 및 IP 분석 (17명 프로젝트):</b> CJ ENM·JTBC(스튜디오 룰루랄라) 경영진의 콘텐츠 투자 의사결정을 지원하는 데이터 분석·플랫폼 구축 과제에서 한국어 RoBERTa 기반 시청자 감성 분석 파이프라인(ROC-AUC 0.92·0.96)과 Pyro(HMC) 베이지안 IP·OTT 수익 예측 모델을 구축했습니다.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3>경력 공백 및 병역</h3><span class="dates">2017.04 – 2021.01</span></div>
+          <p class="note">병역 의무 이행(사회복무요원 소집해제, 2019.01 – 2021.01) 및 가업 운영·가족 간병(2017.04 – 2018.09). 해당 기간 중 국내 주식 시장 데이터 기반 개인 연구(일간 수익률 점프 확산 모델링 및 전략 백테스트)를 수행했습니다.</p>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3 lang="en">Vista Capital</h3><span class="loc">미국 뉴욕</span></div>
+          <div class="row"><span class="title">Data Analyst, Asset Management</span><span class="dates">2014.06 – 2017.03</span></div>
+          <p class="ctx">기업 대출 및 차입매수(LBO) 언더라이팅 전문 부티크 자산운용·기업금융사.</p>
+          <ul>
+            <li>포트폴리오 하방 리스크(VaR) 정밀 산출을 위해 MCMC 시뮬레이션 기반의 주식·파생상품 가격 경로, 변동성 및 손실 분포를 모델링했습니다.</li>
+            <li>비정형 공시자료, 시장 데이터, 사내 회계 자료를 결합한 신규 신용위험 피처를 발굴·검증하여 기업 신용평가 모델을 고도화했습니다.</li>
+            <li>핵심 포트폴리오 데이터 파이프라인을 자동화하여 일별 리스크 리포트 산출 지연 문제를 해소했습니다.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="row"><h3 lang="en">T3 Trading Group</h3><span class="loc">미국 뉴욕</span></div>
+          <div class="row"><span class="title">Data Analyst, Equity Trading</span><span class="dates">2012.02 – 2014.05</span></div>
+          <p class="ctx">미국 프롭 트레이딩 및 등록 브로커딜러 금융사.</p>
+          <ul>
+            <li>주식 트레이딩 데스크용 모멘텀·리스크 시그널 및 VaR 기반 포지션 사이징 권고 모델을 개발하고 일간·주간 트레이딩 리포트를 발행했습니다.</li>
+            <li>미국 거래소 실시간 틱 데이터 기반 트레이딩 테이프 및 Level 3 호가·주문 흐름 데이터셋을 구축하고, 시장 미시구조 분석을 통해 NYSE·Nasdaq 유동성 공급(LP) 전략 및 주문 집행을 지원했습니다.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>학력</h2>
+        <ul class="edu">
+          <li><b lang="en">Johns Hopkins University, Whiting School of Engineering</b><span>M.S., Data Science | 2022 – 2024</span></li>
+          <li><b lang="en">Baruch College, City University of New York</b><span>B.B.A., Finance | 2009 – 2013</span></li>
+        </ul>
+      </section>
+
+      <div class="cols">
+        <section>
+          <h2>자격증</h2>
+          <p>투자자산운용사(금융투자협회, 2021.02)</p>
+        </section>
+        <section>
+          <h2>언어</h2>
+          <p>한국어(모국어) | 영어(원어민 수준, 2000 – 2018 미국 거주)</p>
+        </section>
       </div>
-    </section>
 
-    <!-- Career Highlights -->
-    <section>
-      <h2>Career Highlights</h2>
-      <ul>
-        <li>Built & led seven end-to-end ML services (team sizes 3–12) from scoping to production; managed multi-million-$ budgets.</li>
-        <li>LLM &amp; Gen-AI: Pass@1 = 91 % academic Q&amp;A chatbot (200 K students, 4.9 s/1K tok).</li>
-        <li>Marketing ROI & CVR forecasting for NH Financial → 18 % campaign-cost reduction.</li>
-        <li>Multimodal audit pipeline for KDIC cut 80 % human labor (4 000 hrs/yr).</li>
-        <li>MLOps: designed high-throughput pipelines (100 K req/s) on K8s + Kubeflow.</li>
-        <li>Former asset-management & HFT analytics; strong finance foundation.</li>
-        <li>Trained 40+ engineers and analysts through in-house ML programs.</li>
-      </ul>
-    </section>
-
-    <!-- Professional Experience -->
-    <section>
-      <h2>Professional Experience</h2>
-
-      <!-- Chunjae -->
-      <article>
-        <h3>Lead ML Researcher · Chunjae Education — AI Center</h3>
-        <span class="period">Nov 2024 – Present</span>
-        <p class="stack">PyTorch, Pyro, Kubeflow, Katib, vLLM</p>
-        <ul>
-          <li>Designed NN-based knowledge-tracing models (DKT/DFM) & IRT pipeline → AUC 87 %, F1 82 %.</li>
-          <li>Fine-tuned & prompt-engineered LLM Q&amp;A chatbot → Pass@1 91 %.</li>
-          <li>Built LMOps serving 200 K students (100 K throughput, 4.94 s/1K tok, 60 % GPU utilization).</li>
-        </ul>
-      </article>
-
-      <!-- NH / WAI -->
-      <article>
-        <h3>Project Lead / Data Scientist · WAI — NH Financial Group</h3>
-        <span class="period">Jan 2023 – Aug 2024</span>
-        <p class="stack">Spark, XGBoost, TensorFlow, VAE</p>
-        <ul>
-          <li>ROI forecasting (RMSE 0.33) & conversion-rate prediction (MAE 0.42); Organic PV/UV Prophet model (MAE 0.21).</li>
-          <li>Discovered latent customer segments via VAE → 18 % campaign-cost reduction.</li>
-          <li>Delivered internal ML upskilling sessions for analysts & marketers.</li>
-        </ul>
-      </article>
-
-      <!-- KDIC -->
-      <article>
-        <h3>Project Lead / ML Engineer · Korea Deposit Insurance Corporation</h3>
-        <span class="period">Aug 2023 – Nov 2023</span>
-        <p class="stack">SVM, TF-IDF, OpenCV, YOLOv4, Selenium, Airflow</p>
-        <ul>
-          <li>Built multimodal (text + image) audit pipeline → AUC 76 %; Type-I error 0 %.</li>
-          <li>Reduced manual inspection by 80 % (4 000 hrs/yr).</li>
-        </ul>
-      </article>
-
-      <!-- Stable Diffusion -->
-      <article>
-        <h3>ML Researcher · WAI — Stable Diffusion POC</h3>
-        <span class="period">Mar 2023 – Aug 2023</span>
-        <p class="stack">HuggingFace, FastAPI, PyTorch</p>
-        <ul>
-          <li>Fine-tuned Korean Stable Diffusion 1.5; designed FastAPI + HF inference pipeline.</li>
-          <li>Created automatic Ko-En prompt chains (NLLB-200).</li>
-        </ul>
-      </article>
-
-      <!-- JTBC -->
-      <article>
-        <h3>Project Lead / Data Scientist · Studio LuluLala / JTBC</h3>
-        <span class="period">Sep 2022 – Feb 2023</span>
-        <p class="stack">RoBERTa, PyTorch, Selenium, AWS, K8s</p>
-        <ul>
-          <li>Fine-tuned RoBERTa for sentiment/trend → AUC 96 %.</li>
-          <li>Integrated analytics into investment dashboard, cutting planning lead-time.</li>
-        </ul>
-      </article>
-
-      <!-- CJ ENM -->
-      <article>
-        <h3>Project Lead / Data Scientist · CJ&nbsp;ENM</h3>
-        <span class="period">Nov 2021 – Aug 2022</span>
-        <p class="stack">TF-IDF, LDA, Hadoop Impala, Oozie</p>
-        <ul>
-          <li>Built user-data post-evaluation AI → F1: drama 91 %, variety 84 %.</li>
-          <li>Revenue forecasting (Prophet + ISO-Forest) MAE 0.17.</li>
-        </ul>
-      </article>
-
-      <!-- Vista -->
-      <article>
-        <h3>Data Analyst · Vista Capital</h3>
-        <span class="period">Jun 2014 – Mar 2017</span>
-        <p class="stack">Bloomberg, R, C++, SQL</p>
-        <ul>
-          <li>Predicted prices & volatility → RMSE 8.46, SMAPE 0.28; VaR model R² 0.95.</li>
-        </ul>
-      </article>
-
-      <!-- T3 -->
-      <article>
-        <h3>Data Analyst · T3 Trading</h3>
-        <span class="period">Feb 2012 – May 2014</span>
-        <p class="stack">Bloomberg, SQL</p>
-        <ul>
-          <li>Built real-time data pipelines & >60 HFT trading signals.</li>
-        </ul>
-      </article>
-    </section>
+      <section>
+        <h2>기술 스택</h2>
+        <dl class="kv">
+          <dt>모델링·실험</dt>
+          <dd>PyTorch, TensorFlow, LightGBM, Hugging Face, Pyro/PyMC, pandas, SQL, Python</dd>
+          <dt>LLM·검색</dt>
+          <dd>vLLM, ONNX/Triton, LangChain/LangGraph/LangSmith, Elasticsearch, VectorDB(Qdrant, Pinecone, pgvector)</dd>
+          <dt>데이터·인프라(협업)</dt>
+          <dd>Spark, Trino, Hive, BigQuery, Aerospike, Memcached; Docker, Kubernetes, Airflow, Kubeflow, FastAPI; AWS, GCP, Naver Cloud</dd>
+        </dl>
+      </section>
+    </article>
 
   </main>
 
-  <!-- Footer -->
   <footer>
-    © 2024 Jack Jiyong Kim · Built with ❤️ and GitHub Pages
+    <span data-l="en">© 2026 Jack Jiyong Kim · Last updated November 2026</span>
+    <span data-l="ko" lang="ko">© 2026 김지용 · 2026년 11월 업데이트</span>
   </footer>
 </body>
 </html>
